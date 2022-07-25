@@ -1,13 +1,9 @@
-import './App.css';
+import React from 'react'
 
-function App() {
+export default function Starwarcard() {
   return (
-    <>
-    <div>
-    <a href="/"><img src="./Images/starwarslogo.png" alt="logo" width="50%"/></a>
-    </div>
     <div className="row row-cols-1 row-cols-md-3 g-4">
-          <div className="col">
+            <div className="col">
                 <div className="card h-100">
                 <img src="./Images/people.jpg" className="card-img-top" alt="People"/>
                     <div className="card-body">
@@ -56,8 +52,5 @@ function App() {
             </div>
         </div>
     </div>
-    </>
   )
 }
-
-export default App;
